@@ -1,0 +1,111 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-image: url("img/body.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.btn_custom{
+    border: none;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    transition: .6s;
+    text-decoration: none;
+    /* background-size: 200%; */
+    background-image: linear-gradient(to left, #f92347,#f9236e);
+    color: #fff;
+}
+.btn_custom:hover{
+    background-image: linear-gradient(to left, #f9236e,#f92347);
+      /* background-position: right; */
+}
+.btn_MB_BRP{
+      font-size: 20px;
+      width: 156px;
+      height: 47px;
+}
+.btn_LN{
+      font-size: 12px;
+      width: 99px;
+      height: 30px;
+}
+.btn_PS{
+      font-size: 12px;
+      width: 119px;
+      height: 30px;
+}
+.topBanner{
+  background-image: url('img/topBanner/background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.alert {
+  margin-bottom: 0;
+  border: none;
+  border-radius:0;
+}
+.alert-dismissible {
+  padding-right: 0rem;
+}
+hr {
+  opacity: 1;
+  margin: 0;
+}
+.topNaviationBar{
+  background-image: url('img/topNaviationBar/background.png');
+}
+.hover1:hover{
+  color: #F8246E !important;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+  color: #F8246E !important;
+}
+.mainBanner{
+    background-image: url('img/mainBanner/hero.jpg');
+    height: 140vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.latestNews{
+    background-image: url('img/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -4%;
+}
+.footerArea1{
+    background-image: url('img/footerArea/background.jpg');
+    background-color: #f92347;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.card {
+    --bs-card-border-color: false;
+}
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background-color: #F92357 !important;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    color: white !important;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot {
+    background: #CACACA !important;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    color: white !important;
+}
+.footerFontColor {
+    color: #fbffff !important;
+}

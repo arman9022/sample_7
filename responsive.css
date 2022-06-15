@@ -1,0 +1,79 @@
+@media only screen and (max-width: 500px) {
+    #text1 {
+      font-size: 2rem !important;
+    }
+    #text2 {
+      letter-spacing: 0 !important;
+    }
+    #topSpacing {
+      margin-top: 0 !important;
+    }
+    .owl-carousel .owl-nav button.owl-prev,
+    .owl-carousel button.owl-dot {
+      width: 5% !important;
+      height: 5% !important;
+    }
+    .owl-carousel .owl-nav button.owl-next,
+    .owl-carousel button.owl-dot {
+      width: 5% !important;
+      height: 5% !important;
+    }
+}
+@media only screen and (max-width: 750px) {
+    #text1 {
+      font-size: 3.5rem !important;
+      line-height: 3.3rem !important;
+    }
+    #text2 {
+      letter-spacing: 0 !important;
+    }
+    #topSpacing {
+      margin-top: 0 !important;
+    }
+    .mainBanner{
+      height: 100vh !important;
+    }
+}
+@media screen and (max-width: 400px) {
+    #heroSection{
+        margin-top: 2rem !important;
+    }
+    .title1{
+        font-size: 3rem !important;
+        letter-spacing: -.3rem !important;
+        line-height: 2.2rem !important;
+    }
+    .title2{
+        letter-spacing: 1.8rem !important;
+        margin-left: 2rem !important;
+        margin-top: -.8rem !important;
+    }
+    .p1{display: none !important;}
+    .display1{
+        margin-top: -4rem !important;
+    }
+    .alertText{
+        display: none;
+    }
+    .women1{
+        background-size: contain !important;
+        margin-left: 2rem !important;
+        margin-right: 2rem !important;
+        margin-bottom: 2rem !important;
+    }
+    .card{
+        width: 22rem !important;
+    }
+    .all-center1{
+        text-align: center !important;
+        margin: 0 0 !important;
+        padding: 0 0 !important;
+    }
+    .input1{
+        width: 90% !important;
+        margin-bottom: 5% !important;
+    }
+}
+@media screen and (max-width: 768px) {
+  .p1{display: none !important;}
+}
